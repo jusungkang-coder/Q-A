@@ -1,0 +1,8 @@
+node_modules/
+*.seed.json
+admin_seed*.json
+.env
+.env.*
+.DS_Store
+test-results/
+tests/.tmp/

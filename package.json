@@ -1,0 +1,14 @@
+{
+  "name": "cs-answer-center",
+  "version": "1.0.0",
+  "private": true,
+  "description": "CS 문의 답변센터 — 질문 검색 + 답변 관리 (claude.ai 아티팩트)",
+  "type": "module",
+  "scripts": {
+    "test": "node tests/run.mjs",
+    "admin-hash": "node tools/make-admin-hash.mjs"
+  },
+  "devDependencies": {
+    "playwright": "^1.56.0"
+  }
+}

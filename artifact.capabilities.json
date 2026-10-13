@@ -1,0 +1,12 @@
+{
+  "assets": {},
+  "db": {
+    "rules": [
+      { "path": "", "read": "view", "write": "admin" },
+      { "path": "data/admins", "read": "admin", "write": "admin" }
+    ]
+  },
+  "downloads": {},
+  "mcp": { "servers": [ { "server": "Google Sheets", "tools": ["get_values"] } ] },
+  "user": {}
+}
